@@ -874,7 +874,7 @@ namespace ScrollBars
       this.bg4LayerElementCollection.Size = new Size(1242, 381);
       this.bg4LayerElementCollection.TabIndex = 3;
       this.AutoScaleDimensions = new SizeF(6f, 13f);
-      this.AutoScaleMode = AutoScaleMode.Dpi;
+      this.AutoScaleMode = AutoScaleMode.Font;
       this.ClientSize = new Size(1280, 453);
       this.Controls.Add((Control) this.effectDataParallaxTabControl);
       this.Controls.Add((Control) this.menuStrip);
