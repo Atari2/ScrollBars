@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\Download\ScrollBars.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC7A6F5F-C73D-430F-A59A-F81FF8685562}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>ScrollBars</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>0.9.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>ScrollBars</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SetMultipleWaveEnabledForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleGroupsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleWaveAmplitudesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleWavelengthsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleWindSpeedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScrollingEffectEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration.cs" />
+    <Compile Include="SetMultipleMultipliersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScrollingEffectLayerElementCollection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SetMultipleScrollSpeedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HdmaEffect.cs" />
+    <Compile Include="SetMultipleWindEnabledForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleSourcesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScrollingEffectLayerTableEntry.cs" />
+    <Compile Include="SetMultipleWaveOffsetsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleWindDirectionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScrollingEffectLayer.cs" />
+    <Compile Include="ScrollingEffect.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleWaveSpeedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers.cs" />
+    <Compile Include="FormSupport.cs" />
+    <Compile Include="ImportExport.cs" />
+    <Compile Include="FreeAddr.cs" />
+    <Compile Include="SetMultipleWaveDirectionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetMultipleWaveTypesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="ScrollingEffectEditor.resx" />
+    <EmbeddedResource Include="ScrollingEffectLayerElementCollection.resx" />
+    <EmbeddedResource Include="SetMultipleGroupsForm.resx" />
+    <EmbeddedResource Include="SetMultipleMultipliersForm.resx" />
+    <EmbeddedResource Include="SetMultipleScrollSpeedsForm.resx" />
+    <EmbeddedResource Include="SetMultipleSourcesForm.resx" />
+    <EmbeddedResource Include="SetMultipleWaveAmplitudesForm.resx" />
+    <EmbeddedResource Include="SetMultipleWaveDirectionsForm.resx" />
+    <EmbeddedResource Include="SetMultipleWaveEnabledForm.resx" />
+    <EmbeddedResource Include="SetMultipleWavelengthsForm.resx" />
+    <EmbeddedResource Include="SetMultipleWaveOffsetsForm.resx" />
+    <EmbeddedResource Include="SetMultipleWaveSpeedsForm.resx" />
+    <EmbeddedResource Include="SetMultipleWaveTypesForm.resx" />
+    <EmbeddedResource Include="SetMultipleWindDirectionsForm.resx" />
+    <EmbeddedResource Include="SetMultipleWindEnabledForm.resx" />
+    <EmbeddedResource Include="SetMultipleWindSpeedsForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
